@@ -6,15 +6,19 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Ph0umERTwbIMa9puYbkqf54nSXM=
+		7tBxk4VK3IwFCDfRt23W71SurzY=
 		</data>
 		<key>Headers/Helpshift.h</key>
 		<data>
-		9bQzwzF8SiHaway6f0ii7fFng/k=
+		q7LsFjcxt99dILEkbfyfeCgh5eA=
 		</data>
 		<key>Headers/HelpshiftDelegate.h</key>
 		<data>
 		rXfzaw0YbV8sgj0aBFkyLJW+8FM=
+		</data>
+		<key>Headers/HelpshiftProactiveAPIConfigCollectorDelegate.h</key>
+		<data>
+		FO8WjAUqC0K+w2bfxY2Tdo1Pq0c=
 		</data>
 		<key>Headers/HelpshiftX.h</key>
 		<data>
@@ -22,27 +26,27 @@
 		</data>
 		<key>HelpshiftChatViewController.nib/objects-11.0+.nib</key>
 		<data>
-		2XBk9YNtZz7J8lj7H+g7yDPVGj4=
+		5bliX3FZn5IfTHN0N3VmjemHGCI=
 		</data>
 		<key>HelpshiftChatViewController.nib/runtime.nib</key>
 		<data>
-		iU9E7jL+3gFfH+i7KHJoABQtinw=
+		AEzOciUWVrGVeUHyVFCIXSSFZXU=
 		</data>
 		<key>HelpshiftFAQsViewController.nib/objects-11.0+.nib</key>
 		<data>
-		TwSxBWmIK+atV6FRS3eDTtO+GgU=
+		dHejOAbZxHfT2dFMq0fu1ZZVVso=
 		</data>
 		<key>HelpshiftFAQsViewController.nib/runtime.nib</key>
 		<data>
-		HIJ51XPm2uHBX8l/Yj9WNs+B3ho=
+		YUbVDo1eAn8KBSluva6ouIZIJXs=
 		</data>
 		<key>HsLoadingView.nib/objects-11.0+.nib</key>
 		<data>
-		Sk0C6USep3iGFulW1tGPtvNkpZU=
+		1Scs0NILGkd4yGhtAjT7Zc/kUkQ=
 		</data>
 		<key>HsLoadingView.nib/runtime.nib</key>
 		<data>
-		UvNEPVWyE8pRAV5qWD/f281uwx4=
+		kxKvBKJ0r49FTDmMX23UceLqZS8=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -71,22 +75,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ph0umERTwbIMa9puYbkqf54nSXM=
+			7tBxk4VK3IwFCDfRt23W71SurzY=
 			</data>
 			<key>hash2</key>
 			<data>
-			msOHc/r/2P0KjxyQJJb1dAplzM6l266i6vM5/aHlILc=
+			70zPD+eY+Hol+N2ljGF47hT8uNcD1w7oS4Zub1jE0vc=
 			</data>
 		</dict>
 		<key>Headers/Helpshift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9bQzwzF8SiHaway6f0ii7fFng/k=
+			q7LsFjcxt99dILEkbfyfeCgh5eA=
 			</data>
 			<key>hash2</key>
 			<data>
-			jk9ynGh5ehQbMm4A6He9SKFVlWftUA1Ppp32lyRSyiI=
+			PN6Jx03rQe6o4zKVXPLYhC9e21dbx9dg4eb1Tc7lX7Y=
 			</data>
 		</dict>
 		<key>Headers/HelpshiftDelegate.h</key>
@@ -98,6 +102,17 @@
 			<key>hash2</key>
 			<data>
 			/+omCxUg7SJZCd6mGwg+Pv7C6W8sSXTFapq1Jev0J3c=
+			</data>
+		</dict>
+		<key>Headers/HelpshiftProactiveAPIConfigCollectorDelegate.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FO8WjAUqC0K+w2bfxY2Tdo1Pq0c=
+			</data>
+			<key>hash2</key>
+			<data>
+			H/tKxicBe3OhIrK3Iz+OTXI2lRC9bC9ylOKY86Yxnok=
 			</data>
 		</dict>
 		<key>Headers/HelpshiftX.h</key>
@@ -115,66 +130,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2XBk9YNtZz7J8lj7H+g7yDPVGj4=
+			5bliX3FZn5IfTHN0N3VmjemHGCI=
 			</data>
 			<key>hash2</key>
 			<data>
-			DwIyBT7yS9CCJibtUgBsxim6VWFIF7ffaPThb7zLSPI=
+			veK7arb7ppqnE6HMVmQ22BD+7d5sP0xoJz1Vgqr54Xk=
 			</data>
 		</dict>
 		<key>HelpshiftChatViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iU9E7jL+3gFfH+i7KHJoABQtinw=
+			AEzOciUWVrGVeUHyVFCIXSSFZXU=
 			</data>
 			<key>hash2</key>
 			<data>
-			vhIuUCp+3bI3yFh3CEiaplYJxyNUIzaZPSAWWSMTEfM=
+			HC18o7lC0PIOotAXbijhzCXS5ciKp5mxhi3ai4Bmn2I=
 			</data>
 		</dict>
 		<key>HelpshiftFAQsViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TwSxBWmIK+atV6FRS3eDTtO+GgU=
+			dHejOAbZxHfT2dFMq0fu1ZZVVso=
 			</data>
 			<key>hash2</key>
 			<data>
-			4nXmNnSuJow7emOdh2t6l/cA7yAnxex1Hk4bepAu4+s=
+			xUhG9MK579tNG3O4PVjkn4rrV273LPLXmCh0OQ6PYIQ=
 			</data>
 		</dict>
 		<key>HelpshiftFAQsViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HIJ51XPm2uHBX8l/Yj9WNs+B3ho=
+			YUbVDo1eAn8KBSluva6ouIZIJXs=
 			</data>
 			<key>hash2</key>
 			<data>
-			UDAkEG3is3fKew6e0TeYtLqNyAMAjj1SOzoTUEXuWxw=
+			PhPpS3ZDy4MMjTh2MtK+EWsFwD8Ghv/UeYrw8MlvPfU=
 			</data>
 		</dict>
 		<key>HsLoadingView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Sk0C6USep3iGFulW1tGPtvNkpZU=
+			1Scs0NILGkd4yGhtAjT7Zc/kUkQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			4i5x9G81MNW3TVDmb8FlJ2M0NdWNNT9dU5j0SLGkABs=
+			bNARmz8DY4No0yLHjq1bKXC8JPOKinlnZ29aj3n+BnQ=
 			</data>
 		</dict>
 		<key>HsLoadingView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UvNEPVWyE8pRAV5qWD/f281uwx4=
+			kxKvBKJ0r49FTDmMX23UceLqZS8=
 			</data>
 			<key>hash2</key>
 			<data>
-			icQz+od8kSd3ilxlEbCCY97ZMYiJfxTXNEaYXwKbSUY=
+			7imUzUF/TImb98x5I5ZCaX7YH5yhj/itq1POEN7nnBM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

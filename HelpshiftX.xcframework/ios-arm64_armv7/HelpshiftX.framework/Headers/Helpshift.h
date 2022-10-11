@@ -8,6 +8,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "HelpshiftDelegate.h"
+#import "HelpshiftProactiveAPIConfigCollectorDelegate.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
 /// Key to be used for providing username in the [Helpshift loginUser:] method
@@ -27,6 +29,9 @@ static NSString *_Nonnull const HelpshiftUserAuthToken = @"userAuthToken";
 
 /// The delegate to be set to in order to receive events from Helpshift
 @property (nonatomic, weak) id<HelpshiftDelegate> delegate;
+
+/// The delegate to be set to in order to receive events from HelpshiftProactiveAPIConfigCollector
+@property (nonatomic, weak) id<HelpshiftProactiveAPIConfigCollectorDelegate> proactiveAPIConfigCollectorDelegate;
 
 /** Returns an instance of Helpshift
  *
@@ -68,9 +73,17 @@ static NSString *_Nonnull const HelpshiftUserAuthToken = @"userAuthToken";
 + (void) logout;
 
 /**
- * Call this API if you need to clear the anonymous user data on login
+ * Call this API if you need to clear the anonymous user data on login.
+ * Equivalent to calling clearAnonymousUserOnLogin:(BOOL)shouldClear API with true value for shouldClear parameter.
  */
-+ (void) clearAnonymousUserOnLogin;
++ (void) clearAnonymousUserOnLogin __attribute__((deprecated("Use clearAnonymousUserOnLogin:(BOOL)shouldClear instead.")));
+
+/**
+ * Call this API if you need to start clearing/stop clearing the anonymous user data on login
+ *
+ * @param shouldClear If true, anonymous user data will be cleared on login. If false, it won't be cleared.
+ */
++ (void) clearAnonymousUserOnLogin:(BOOL)shouldClear;
 
 /**
  * Shows the helpshift support conversation screen.
@@ -132,6 +145,14 @@ static NSString *_Nonnull const HelpshiftUserAuthToken = @"userAuthToken";
 + (BOOL) handleNotificationWithUserInfoDictionary:(NSDictionary *)userInfo isAppLaunch:(BOOL)isAppLaunch withController:(UIViewController *)viewController;
 
 /**
+ * Add function to handle proactive link handling.
+ *
+ * @param proactiveLink This data will be decided by the customer and we will expect them to include the "helpshift_proactive_link" keyvalue and pass to stringUrl parameter.
+ */
+
++ (void) handleProactiveLink:(NSString *) proactiveLink;
+
+/**
  * Fetches the unread messages count from local or remote based on `shouldFetchFromServer` flag.
  * Invokes the `[HelpshiftDelegate handleHelpshiftEvent:withData:]` with appropriate data as response.
  *
@@ -161,6 +182,13 @@ static NSString *_Nonnull const HelpshiftUserAuthToken = @"userAuthToken";
  * @param message The string to be logged.
  */
 + (void) addLog:(NSString *)message;
+
+/**
+ * Adds an entry  to user trail. The full user trail is synced with Helpshift dashboard whenever a Helpshift SDK screen is presented.
+ *
+ * @param userTrail The user trail to add.
+ */
++ (void) addUserTrail:(NSString *)userTrail;
 
 @end
 
