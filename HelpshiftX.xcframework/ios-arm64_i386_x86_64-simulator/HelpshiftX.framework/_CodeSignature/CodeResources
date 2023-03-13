@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		pG1FCXPcUexgtKP18wM8GC2cUMg=
+		qovwC5IsJy2n6RxzxJhyNxxomHI=
 		</data>
 		<key>Headers/Helpshift.h</key>
 		<data>
@@ -26,27 +26,27 @@
 		</data>
 		<key>HelpshiftChatViewController.nib/objects-11.0+.nib</key>
 		<data>
-		6Oc1UIwWx48WZgLbhe4fR04YhiM=
+		Xbz7pvQe26zT6TvBt6YPJOjNv8s=
 		</data>
 		<key>HelpshiftChatViewController.nib/runtime.nib</key>
 		<data>
-		3wMJ67YREmZadSD4DHl7BGh7nDA=
+		1xOdSPpZC/+zIfrpQGJHOF/ZKYw=
 		</data>
 		<key>HelpshiftFAQsViewController.nib/objects-11.0+.nib</key>
 		<data>
-		femzQJKVZPjjzsDanp+jHBWzGU8=
+		wNOGmUnMIXYKd/9r5rxrTGjIHbg=
 		</data>
 		<key>HelpshiftFAQsViewController.nib/runtime.nib</key>
 		<data>
-		GUcKNLHl+EfaozrkjbVvnIXpxi8=
+		HzWcTXoMogF9C9sj8nQGKqaaiOs=
 		</data>
 		<key>HsLoadingView.nib/objects-11.0+.nib</key>
 		<data>
-		MQoqeUmX9ueFqKFZfDPE9O4XfLU=
+		H05+Tm/z2lTLXAFH5Ad2eiKJsoY=
 		</data>
 		<key>HsLoadingView.nib/runtime.nib</key>
 		<data>
-		4+bLpF3/V8WsNT0BtKM+QcX/Ooc=
+		A6kWVZWHIKomQLhGrbRoObaPRxQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -75,11 +75,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pG1FCXPcUexgtKP18wM8GC2cUMg=
+			qovwC5IsJy2n6RxzxJhyNxxomHI=
 			</data>
 			<key>hash2</key>
 			<data>
-			EmLHcg74u2gj7/HBHW3J5Z69PdCorimzl2+ZFXlceAU=
+			Irjse9d6HEJmfJtPBhAX4cXrAP89dsUUYFm2MMdrRD4=
 			</data>
 		</dict>
 		<key>Headers/Helpshift.h</key>
@@ -130,66 +130,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6Oc1UIwWx48WZgLbhe4fR04YhiM=
+			Xbz7pvQe26zT6TvBt6YPJOjNv8s=
 			</data>
 			<key>hash2</key>
 			<data>
-			OIuA/69JcKmJPulwnNUudXfKzYkEmqdXHE6F0R2MxZc=
+			ebbUn/pR+qWMo+lkL+z1fbFUpNI5p5XotShjsFW+Y+A=
 			</data>
 		</dict>
 		<key>HelpshiftChatViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3wMJ67YREmZadSD4DHl7BGh7nDA=
+			1xOdSPpZC/+zIfrpQGJHOF/ZKYw=
 			</data>
 			<key>hash2</key>
 			<data>
-			nFGj+VRm+HaLJCFdiULWhwjcJfbLGlBJ76YiVBeqBdc=
+			fiBlN80V83EocxNQ1MhGyi68kDvAwZGcPGkmxqu7z00=
 			</data>
 		</dict>
 		<key>HelpshiftFAQsViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			femzQJKVZPjjzsDanp+jHBWzGU8=
+			wNOGmUnMIXYKd/9r5rxrTGjIHbg=
 			</data>
 			<key>hash2</key>
 			<data>
-			RXS965bdM844GfK+r7i5crCKaJkeWZmyDyPteM3oqSQ=
+			D3l2EP7piVjnwIuInfK7gQ9Vt4r+2uQAocS55jkvxgk=
 			</data>
 		</dict>
 		<key>HelpshiftFAQsViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GUcKNLHl+EfaozrkjbVvnIXpxi8=
+			HzWcTXoMogF9C9sj8nQGKqaaiOs=
 			</data>
 			<key>hash2</key>
 			<data>
-			gnWI9x0cFjkivg3+7UfgLHEgtfmj18LRtVoFOyPhKcE=
+			4QV44D1dKFoHlAyzEB9Gh0SSRThoR8n3IDPlnfGHfiY=
 			</data>
 		</dict>
 		<key>HsLoadingView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MQoqeUmX9ueFqKFZfDPE9O4XfLU=
+			H05+Tm/z2lTLXAFH5Ad2eiKJsoY=
 			</data>
 			<key>hash2</key>
 			<data>
-			qQg0o5ZtzKG2fwKg8tpJmF4hoDMME2a/jv2RwdeWOwY=
+			eg4Bssu4BNE+ygNWkwF/Yh8SE9mgkw2VEnMKRfSMx0Y=
 			</data>
 		</dict>
 		<key>HsLoadingView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4+bLpF3/V8WsNT0BtKM+QcX/Ooc=
+			A6kWVZWHIKomQLhGrbRoObaPRxQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			rp9X1S0uslRHjLcv7mKWvuwcBMtloc5MkCxxW3s9klA=
+			LZigFx7RbPNLCwDGBe0id0pogGh0IA+pCpyz1OSSj2Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

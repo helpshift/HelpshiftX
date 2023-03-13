@@ -1,4 +1,4 @@
-Helpshift SDK 10.2.2 Release Notes (for iOS)
+Helpshift SDK 10.2.3 Release Notes (for iOS)
 --------------------------------------------
 
 Helpshift is an embedded support desk for native apps.
@@ -12,6 +12,10 @@ Documentation for Installation and Usage Instructions:
 http://developers.helpshift.com/
 
 New features:
+Mar 13, 2023
+
+Release Notes
+* Fix a bug where debug logs were not attached to an issue if it contained special characters.
 Jan 31, 2023
 
 Release Notes
