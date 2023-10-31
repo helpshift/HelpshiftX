@@ -8,44 +8,65 @@
 #ifndef HelpshiftDelegate_h
 #define HelpshiftDelegate_h
 
+#import <Foundation/Foundation.h>
+
 #pragma mark Helpshift Events Names and respective data keys
 
-static NSString *_Nonnull const HelpshiftEventNameWidgetToggle = @"widgetToggle";
-static NSString *_Nonnull const HelpshiftEventDataVisible = @"visible";
+NS_ASSUME_NONNULL_BEGIN
 
-static NSString *_Nonnull const HelpshiftEventNameConversationStart = @"conversationStart";
-static NSString *_Nonnull const HelpshiftEventDataMessage = @"message";
+FOUNDATION_EXPORT NSString *const HelpshiftEventNameWidgetToggle;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataVisible;
 
-static NSString *_Nonnull const HelpshiftEventNameConversationStatus = @"conversationStatus";
-static NSString *_Nonnull const HelpshiftEventDataLatestIssueId = @"latestIssueId";
-static NSString *_Nonnull const HelpshiftEventDataLatestIssuePublishId = @"latestIssuePublishId";
-static NSString *_Nonnull const HelpshiftEventDataIsIssueOpen = @"open";
+FOUNDATION_EXPORT NSString *const HelpshiftEventNameConversationStart;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataMessage;
 
-static NSString *_Nonnull const HelpshiftEventNameMessageAdd = @"messageAdd";
-static NSString *_Nonnull const HelpshiftEventDataMessageType = @"type";
-static NSString *_Nonnull const HelpshiftEventDataMessageTypeText = @"text";
-static NSString *_Nonnull const HelpshiftEventDataMessageTypeAttachment = @"attachment";
-static NSString *_Nonnull const HelpshiftEventDataMessageBody = @"body";
+FOUNDATION_EXPORT NSString *const HelpshiftEventNameConversationStatus;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataLatestIssueId;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataLatestIssuePublishId;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataIsIssueOpen;
 
-static NSString *_Nonnull const HelpshiftEventNameCSATSubmit = @"csatSubmit";
-static NSString *_Nonnull const HelpshiftEventDataRating = @"rating";
-static NSString *_Nonnull const HelpshiftEventDataAdditionalFeedback = @"additionalFeedback";
+FOUNDATION_EXPORT NSString *const HelpshiftEventNameMessageAdd;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataMessageType;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataMessageTypeText;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataMessageTypeAttachment;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataMessageBody;
 
-static NSString *_Nonnull const HelpshiftEventNameConversationEnd = @"conversationEnd";
+FOUNDATION_EXPORT NSString *const HelpshiftEventNameCSATSubmit;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataRating;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataAdditionalFeedback;
 
-static NSString *_Nonnull const HelpshiftEventNameConversationRejected = @"conversationRejected";
+FOUNDATION_EXPORT NSString *const HelpshiftEventNameConversationEnd;
 
-static NSString *_Nonnull const HelpshiftEventNameConversationResolved = @"conversationResolved";
+FOUNDATION_EXPORT NSString *const HelpshiftEventNameConversationRejected;
 
-static NSString *_Nonnull const HelpshiftEventNameConversationReopened = @"conversationReopened";
+FOUNDATION_EXPORT NSString *const HelpshiftEventNameConversationResolved;
 
-static NSString *_Nonnull const HelpshiftEventNameReceivedUnreadMessageCount = @"receivedUnreadMessageCount";
-static NSString *_Nonnull const HelpshiftEventDataUnreadMessageCount = @"count";
-static NSString *_Nonnull const HelpshiftEventDataUnreadMessageCountIsFromCache = @"fromCache";
+FOUNDATION_EXPORT NSString *const HelpshiftEventNameConversationReopened;
 
-static NSString *_Nonnull const HelpshiftEventNameSessionStarted = @"helpshiftSessionStarted";
+FOUNDATION_EXPORT NSString *const HelpshiftEventNameReceivedUnreadMessageCount;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataUnreadMessageCount;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataUnreadMessageCountIsFromCache;
 
-static NSString *_Nonnull const HelpshiftEventNameSessionEnded = @"helpshiftSessionEnded";
+FOUNDATION_EXPORT NSString *const HelpshiftEventNameSessionStarted;
+
+FOUNDATION_EXPORT NSString *const HelpshiftEventNameSessionEnded;
+
+FOUNDATION_EXPORT NSString *const HelpshiftEventNameUserClickOnAction;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataActionType;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataActionTypeCall;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataActionTypeLink;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataActionData;
+
+FOUNDATION_EXPORT NSString *const HelpshiftEventNameAgentMessageReceived;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataPublishID;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataCreatedTime;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataAttachments;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataURL;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataContentType;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataFileName;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataSize;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataMessageTypeAppReviewRequest;
+FOUNDATION_EXPORT NSString *const HelpshiftEventDataMessageTypeScreenshotRequest;
 
 #pragma mark Authentication Failure Reasons
 
@@ -71,7 +92,7 @@ typedef NS_ENUM (NSUInteger, HelpshiftAuthenticationFailureReason)
  * @param eventName The name of the event
  * @param data The data received from the event if any.
  */
-- (void) handleHelpshiftEvent:(nonnull NSString *)eventName withData:(nullable NSDictionary *)data;
+- (void) handleHelpshiftEvent:(NSString *)eventName withData:(nullable NSDictionary *)data;
 
 /**
  * Delegate method that gets called when the user authentication fails.
@@ -81,6 +102,9 @@ typedef NS_ENUM (NSUInteger, HelpshiftAuthenticationFailureReason)
  *
  */
 - (void) authenticationFailedForUserWithReason:(HelpshiftAuthenticationFailureReason)reason;
+
 @end
+
+NS_ASSUME_NONNULL_END
 
 #endif /* HelpshiftWebchatDelegate_h */

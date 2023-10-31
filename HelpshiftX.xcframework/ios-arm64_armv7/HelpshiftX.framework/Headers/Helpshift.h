@@ -7,22 +7,22 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "HelpshiftDelegate.h"
-#import "HelpshiftProactiveAPIConfigCollectorDelegate.h"
+#import <HelpshiftX/HelpshiftDelegate.h>
+#import <HelpshiftX/HelpshiftProactiveAPIConfigCollectorDelegate.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 /// Key to be used for providing username in the [Helpshift loginUser:] method
-static NSString *_Nonnull const HelpshiftUserName = @"userName";
+FOUNDATION_EXPORT NSString *const HelpshiftUserName;
 
 /// Key to be used for providing user identifier in the loginUser: method
-static NSString *_Nonnull const HelpshiftUserIdentifier = @"userId";
+FOUNDATION_EXPORT NSString *const HelpshiftUserIdentifier;
 
 /// Key to be used for providing user email in the loginUser: method
-static NSString *_Nonnull const HelpshiftUserEmail = @"userEmail";
+FOUNDATION_EXPORT NSString *const HelpshiftUserEmail;
 
 /// Key to be used for providing user's authentication token in the loginUser: method
-static NSString *_Nonnull const HelpshiftUserAuthToken = @"userAuthToken";
+FOUNDATION_EXPORT NSString *const HelpshiftUserAuthToken;
 
 /// Classes which provides access to all Helpshift APIs
 @interface Helpshift : NSObject
@@ -43,14 +43,16 @@ static NSString *_Nonnull const HelpshiftUserAuthToken = @"userAuthToken";
 
 /** Initialize helpshift support
  *
- * When initializing Helpshift you must pass these two tokens. You initialize Helpshift by adding the following lines in the implementation file for your AppDelegate, ideally at the top of `application:didFinishLaunchingWithOptions`. This method can throw the `InstallException` asynchronously if the install keys are not in the correct format.
- *  @param platformId This is your platform id API Key
- *  @param domain This is your domain name
- *  @param config This is the config dictionary represents the configuration parameters for the installation
+ * When initializing Helpshift you must pass these two tokens. You initialize Helpshift by adding the following lines in the implementation file for your AppDelegate,
+ * ideally at the top of `application:didFinishLaunchingWithOptions`.
+ * This method can throw the `InstallException` asynchronously if the install keys are not in the correct format.
+ * @param platformId This is your platform id API Key
+ * @param domain This is your domain name
+ * @param config This is the config dictionary represents the configuration parameters for the installation
  */
 + (void) installWithPlatformId:(NSString *)platformId
-    domain:(NSString *)domain
-    config:(nullable NSDictionary *)config;
+                        domain:(NSString *)domain
+                        config:(nullable NSDictionary *)config;
 
 /**
  *  This method pauses/restarts the display in-app notification.
@@ -60,12 +62,17 @@ static NSString *_Nonnull const HelpshiftUserAuthToken = @"userAuthToken";
 + (void) pauseDisplayOfInAppNotification:(BOOL)shouldPauseInAppNotification;
 
 /**
- * Logs in a given user. This method accepts an `NSDictionary` whose keys are one of `HelpshiftUserName`, `HelpshiftUserIdentifier`, `HelpshiftUserEmail`, `HelpshiftUserAuthToken`
+ * Logs in a given user. This method accepts an `NSDictionary` whose keys are one of
+ *  - `HelpshiftUserName`
+ *  - `HelpshiftUserIdentifier`
+ *  - `HelpshiftUserEmail`
+ *  - `HelpshiftUserAuthToken`
  * These are string constants defined in `Helpshift.h` file.
  *
  * @param userDetails The `NSDictionary` representing the user details
+ * @return BOOL value indicating whether login was successful or not
  */
-+ (void) loginUser:(NSDictionary<NSString *, NSString *> *)userDetails;
++ (BOOL) loginUser:(NSDictionary<NSString *, NSString *> *)userDetails;
 
 /**
  * Logs out the previously logged in user
@@ -91,7 +98,15 @@ static NSString *_Nonnull const HelpshiftUserAuthToken = @"userAuthToken";
  * @param viewController The `UIViewController` on which the conversation screen is to be shown
  * @param config An `NSDictionary` which represents the configuration that needs to be set to the conversation
  */
-+ (void) showConversationWith:(UIViewController *)viewController config:(nullable NSDictionary *)config;
++ (void) showConversationWith:(UIViewController *)viewController config:(nullable NSDictionary *)config
+__attribute__((deprecated("Use showConversationWithConfig:(NSDictionary *)config instead.")));
+
+/**
+ * Shows the helpshift support conversation screen.
+ *
+ * @param config An `NSDictionary` which represents the configuration that needs to be set to the conversation
+ */
++ (void) showConversationWithConfig:(nullable NSDictionary *)config;
 
 /**
  * Show the helpshift help center screen.
@@ -99,7 +114,15 @@ static NSString *_Nonnull const HelpshiftUserAuthToken = @"userAuthToken";
  * @param viewController The `UIViewController` on which the help center screen is to be shown
  * @param config An `NSDictionary` which represents the configuration that needs to be set to the help center
  */
-+ (void) showFAQsWith:(UIViewController *)viewController config:(nullable NSDictionary *)config;
++ (void) showFAQsWith:(UIViewController *)viewController config:(nullable NSDictionary *)config
+__attribute__((deprecated("Use showFAQsWithConfig:(NSDictionary *)config instead.")));
+
+/**
+ * Show the helpshift help center screen.
+ *
+ * @param config An `NSDictionary` which represents the configuration that needs to be set to the help center
+ */
++ (void) showFAQsWithConfig:(nullable NSDictionary *)config;
 
 /**
  * Show the helpshift help center screen with FAQs from a particular section
@@ -109,7 +132,19 @@ static NSString *_Nonnull const HelpshiftUserAuthToken = @"userAuthToken";
  * @param viewController The `UIViewController` on which the help center screen is to be shown
  * @param config An `NSDictionary` which represents the configuration that needs to be set to the help center
  */
-+ (void) showFAQSection:(NSString *)faqSectionPublishID with:(UIViewController *)viewController config:(nullable NSDictionary *)config;
++ (void) showFAQSection:(NSString *)faqSectionPublishID
+                   with:(UIViewController *)viewController
+                 config:(nullable NSDictionary *)config
+__attribute__((deprecated("Use showFAQSection:(NSString *)sectionId withConfig:(NSDictionary *)config instead.")));
+
+/**
+ * Show the helpshift help center screen with FAQs from a particular section
+ *
+ * @param faqSectionPublishID Publish ID of FAQ section which is shown in the FAQ page on the admin side
+ * (__yourcompanyname__.helpshift.com/admin/faq/).
+ * @param config An `NSDictionary` which represents the configuration that needs to be set to the help center
+ */
++ (void) showFAQSection:(NSString *)faqSectionPublishID withConfig:(nullable NSDictionary *)config;
 
 /**
  * Show the helpshift help center screen with a single FAQ
@@ -119,7 +154,19 @@ static NSString *_Nonnull const HelpshiftUserAuthToken = @"userAuthToken";
  * @param viewController The `UIViewController` on which the help center screen is to be shown
  * @param config An `NSDictionary` which represents the configuration that needs to be set to the help center
  */
-+ (void) showSingleFAQ:(NSString *)faqPublishID with:(UIViewController *)viewController config:(nullable NSDictionary *)config;
++ (void) showSingleFAQ:(NSString *)faqPublishID
+                  with:(UIViewController *)viewController
+                config:(nullable NSDictionary *)config
+__attribute__((deprecated("Use showSingleFAQ:(NSString *)faqId withConfig:(NSDictionary *)config instead.")));
+
+/**
+ * Show the helpshift help center screen with a single FAQ
+ *
+ * @param faqPublishID Publish ID of FAQ which is shown when you expand a single FAQ on admin side
+ * (__yourcompanyname__.helpshift.com/admin/faq/)
+ * @param config An `NSDictionary` which represents the configuration that needs to be set to the help center
+ */
++ (void) showSingleFAQ:(NSString *)faqPublishID withConfig:(nullable NSDictionary *)config;
 
 /** Change the SDK language. By default, the device's prefered language is used.
  * The call will fail in the following cases :
@@ -142,7 +189,18 @@ static NSString *_Nonnull const HelpshiftUserAuthToken = @"userAuthToken";
  *  @param isAppLaunch    A `BOOL` indicating whether the app was lanuched from a killed state. This parameter should ideally only be true in case when called from app's didFinishLaunchingWithOptions AppDelegate.
  *  @return BOOL value indicating whether Helpshift SDK handled this notification.
  */
-+ (BOOL) handleNotificationWithUserInfoDictionary:(NSDictionary *)userInfo isAppLaunch:(BOOL)isAppLaunch withController:(UIViewController *)viewController;
++ (BOOL) handleNotificationWithUserInfoDictionary:(NSDictionary *)userInfo
+                                      isAppLaunch:(BOOL)isAppLaunch
+                                   withController:(UIViewController *)viewController
+__attribute__((deprecated("Use handleNotificationWithUserInfoDictionary:(NSDictionary *)userInfo isAppLaunch:(BOOL)isAppLaunch instead.")));
+
+/**
+ *  Pass along the userInfo dictionary (received with a `UNNotification`) for the Helpshift SDK to handle
+ *  @param userInfo   dictionary contained in the `UNNotification` object received in AppDelegate.
+ *  @param isAppLaunch    A `BOOL` indicating whether the app was lanuched from a killed state. This parameter should ideally only be true in case when called from app's didFinishLaunchingWithOptions AppDelegate.
+ *  @return BOOL value indicating whether Helpshift SDK handled this notification.
+ */
++ (BOOL) handleNotificationWithUserInfoDictionary:(NSDictionary *)userInfo isAppLaunch:(BOOL)isAppLaunch;
 
 /**
  * Add function to handle proactive link handling.
@@ -189,6 +247,20 @@ static NSString *_Nonnull const HelpshiftUserAuthToken = @"userAuthToken";
  * @param userTrail The user trail to add.
  */
 + (void) addUserTrail:(NSString *)userTrail;
+
+/**
+* Returns the SDK version as a string.
+* Ex. 10.2.2
+* @return SDK version
+*/
+
++ (NSString *) sdkVersion;
+
+/**
+ *This API can be used to close an active Helpshift session and return to the app.
+ *Any open Helpshift screen will be dismissed and control will return to the original screen that launched the Helpshift screen.
+ */
++ (void) closeSession;
 
 @end
 
