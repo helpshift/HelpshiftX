@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		7MZa2U6/Z/39+DIANkFdkKMdNwo=
+		H7Vjq5TKerwoNtqO2IKy4dzzQY0=
 		</data>
 		<key>Headers/Helpshift.h</key>
 		<data>
-		ATO9K/2Hwd4KY8BI2WS8nWlMZlE=
+		Rx02QZGd1m9I1NCYD9R0EggVBeM=
 		</data>
 		<key>Headers/HelpshiftDelegate.h</key>
 		<data>
@@ -22,31 +22,31 @@
 		</data>
 		<key>Headers/HelpshiftX.h</key>
 		<data>
-		GhIpz3HmWT+d7SEIpVy50auXIcI=
+		xXSYtv3Tep3Vd+jMuxN5wyZWfGs=
 		</data>
 		<key>HelpshiftChatViewController.nib/objects-11.0+.nib</key>
 		<data>
-		gSeazkczueYHpen+DnMpgSn5IEM=
+		Z3p/qUh3X/qPqu2mN96Wdlgtp5w=
 		</data>
 		<key>HelpshiftChatViewController.nib/runtime.nib</key>
 		<data>
-		ejO2/t7Ts3X412yw8pyE47vymDI=
+		W+iVyI7jMYWl0hrGTyrabQbP4Lg=
 		</data>
 		<key>HelpshiftFAQsViewController.nib/objects-11.0+.nib</key>
 		<data>
-		K//pGCMPKvYw3+F8vkcqE/0jxXY=
+		M5cEI3mzn2GlNVeRO4y8IT3GnPA=
 		</data>
 		<key>HelpshiftFAQsViewController.nib/runtime.nib</key>
 		<data>
-		d3KR7Crk8obhCYfkWR3+ASMQo3o=
+		XMVI9gfcDJQ1u9KaCThD5J5Z/EU=
 		</data>
 		<key>HsLoadingView.nib/objects-11.0+.nib</key>
 		<data>
-		vKrv3xJzgF3TUrcLXv+FRqsD/go=
+		/BEAG0KJcL6V5ypYvshWrCPx5is=
 		</data>
 		<key>HsLoadingView.nib/runtime.nib</key>
 		<data>
-		yD6vKZMHrCqBc+mfev3i6JqfA+4=
+		TwjU9zqwked3YGN5L7MqAub6jgs=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -62,47 +62,47 @@
 		</data>
 		<key>QBImagePicker.storyboardc/Info.plist</key>
 		<data>
-		KG+MAARMrEL3ddhnu29ufvFASGw=
+		ezcmCSu/AZf6Yg2EE4g68sOmjLE=
 		</data>
 		<key>QBImagePicker.storyboardc/QBAlbumsNavigationController.nib/objects-12.3+.nib</key>
 		<data>
-		QK+W35VycE9BsBbq1NXheO/QoFs=
+		7aqkAW0KqKaHVgShWLdpKLVmoGU=
 		</data>
 		<key>QBImagePicker.storyboardc/QBAlbumsNavigationController.nib/runtime.nib</key>
 		<data>
-		zY/WSvGTYhdcnr/439BfQkmJ6gA=
+		h4evHCfMOBsQEFj3A/9QOthymII=
 		</data>
 		<key>QBImagePicker.storyboardc/QBAlbumsViewController.nib/objects-12.3+.nib</key>
 		<data>
-		LvtQbYIdRjklQuji2NKn7TWKLFg=
+		hWsqGmJKj8zUv/yLdEKeTAHRreg=
 		</data>
 		<key>QBImagePicker.storyboardc/QBAlbumsViewController.nib/runtime.nib</key>
 		<data>
-		W3ouTxAC1Mi1DINt2fsXT3KCH20=
+		AClMIF7q0N0XGirM0sHv8Wk4UuM=
 		</data>
 		<key>QBImagePicker.storyboardc/QBAssetsViewController.nib/objects-12.3+.nib</key>
 		<data>
-		oPq0Eb+W6t3GXpu7hHR+XlhiMjA=
+		o6bv+uJ77EwG7ftRnoWf1fbrhxw=
 		</data>
 		<key>QBImagePicker.storyboardc/QBAssetsViewController.nib/runtime.nib</key>
 		<data>
-		8c1gVBugu0zrLj0y6DoZb8wWj6I=
+		jbkkEfDji/noDtz1ZtgaLX9QH0s=
 		</data>
 		<key>QBImagePicker.storyboardc/QL5-wR-LYt-view-66K-TS-Yoc.nib/objects-12.3+.nib</key>
 		<data>
-		8b616mMGeoGtW0q8slNTGKb6jW0=
+		ipCSYv7j4W15tVtr7fsKhZRHmCI=
 		</data>
 		<key>QBImagePicker.storyboardc/QL5-wR-LYt-view-66K-TS-Yoc.nib/runtime.nib</key>
 		<data>
-		zmW7aoaBWTAs2oXlyGhvbvQicxo=
+		lra0vudo8hp0pYpNf5VfweVjyJ8=
 		</data>
 		<key>QBImagePicker.storyboardc/QiH-NZ-ZGN-view-sD2-zK-ryo.nib/objects-12.3+.nib</key>
 		<data>
-		8s3yEU8MT+Vh59pIGTUi46Z0AuI=
+		QA1xJ+u4HGsgVq1notvEpoydvGo=
 		</data>
 		<key>QBImagePicker.storyboardc/QiH-NZ-ZGN-view-sD2-zK-ryo.nib/runtime.nib</key>
 		<data>
-		UFUv8o6zpQdd64oepp/wH1y7NcU=
+		NzZugbQkddMWIQDjfCpxPdVC90M=
 		</data>
 		<key>helpshift-console-override.txt</key>
 		<data>
@@ -123,22 +123,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7MZa2U6/Z/39+DIANkFdkKMdNwo=
+			H7Vjq5TKerwoNtqO2IKy4dzzQY0=
 			</data>
 			<key>hash2</key>
 			<data>
-			fNBypOW7zp5z3ONiuOFoTHtpVKhqSKJ64MpnKk0agQQ=
+			ihs79KTvjSLoWC6YsTZ/rQcbgolyQgL+kvDqfsI82dw=
 			</data>
 		</dict>
 		<key>Headers/Helpshift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ATO9K/2Hwd4KY8BI2WS8nWlMZlE=
+			Rx02QZGd1m9I1NCYD9R0EggVBeM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ziF5fF1Xb9BfSuYAyNPBgkcUMRykq6wjsN5Awl5i8HM=
+			fkmMFp4zWWqlBiAn3Td6yJHdFFKXnJtHPMpJ1+OobXw=
 			</data>
 		</dict>
 		<key>Headers/HelpshiftDelegate.h</key>
@@ -167,77 +167,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GhIpz3HmWT+d7SEIpVy50auXIcI=
+			xXSYtv3Tep3Vd+jMuxN5wyZWfGs=
 			</data>
 			<key>hash2</key>
 			<data>
-			YHsWAEM4xk6me0ymLXeC1eV55LtgBinBmtV9uPxrGZQ=
+			fOD+FFeMjl11AVKa9Ps8w3wg0htmBMlBvClFZr5JdqY=
 			</data>
 		</dict>
 		<key>HelpshiftChatViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gSeazkczueYHpen+DnMpgSn5IEM=
+			Z3p/qUh3X/qPqu2mN96Wdlgtp5w=
 			</data>
 			<key>hash2</key>
 			<data>
-			J4xR51i389c1njzXZ+0hg4AUe5NFjwlu3o/dnQvj46k=
+			QrG9830YVd+yEodos9bOAV2lVCDum1ZoVO+L3GGjVLs=
 			</data>
 		</dict>
 		<key>HelpshiftChatViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ejO2/t7Ts3X412yw8pyE47vymDI=
+			W+iVyI7jMYWl0hrGTyrabQbP4Lg=
 			</data>
 			<key>hash2</key>
 			<data>
-			FVjG69q5UPxtlm0SH1dSsHTtXj+Rl76skHqj+w0j30Q=
+			d2zOzFTkhdtGNDxSJn+/y7LRG+/X4eTcO8rxkMpziPY=
 			</data>
 		</dict>
 		<key>HelpshiftFAQsViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K//pGCMPKvYw3+F8vkcqE/0jxXY=
+			M5cEI3mzn2GlNVeRO4y8IT3GnPA=
 			</data>
 			<key>hash2</key>
 			<data>
-			agoBnCCqBk3g2YWk12m7yNu1eJ0RxRstuoxCajB09c8=
+			dNYE83LQVMh3qEHUK+OV0LfFu/fDti9LtvXnz3yBiIo=
 			</data>
 		</dict>
 		<key>HelpshiftFAQsViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			d3KR7Crk8obhCYfkWR3+ASMQo3o=
+			XMVI9gfcDJQ1u9KaCThD5J5Z/EU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Wgd+y8HHbDGTCIk+9O8C9w6k3o8tUGiBVcMbz4MxK5E=
+			Ga6LZmeg4bqDI596fCRQyRdVW8x83sZLbLS0cqTEHUQ=
 			</data>
 		</dict>
 		<key>HsLoadingView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vKrv3xJzgF3TUrcLXv+FRqsD/go=
+			/BEAG0KJcL6V5ypYvshWrCPx5is=
 			</data>
 			<key>hash2</key>
 			<data>
-			7E0rQyex5Tubiwh+1RNcz9VFufpGu/8ljEPC+FrrrSk=
+			hFYC4c6gtojnY0hwC4F8nC6zFPR6lTCCHx7o29kYZmk=
 			</data>
 		</dict>
 		<key>HsLoadingView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yD6vKZMHrCqBc+mfev3i6JqfA+4=
+			TwjU9zqwked3YGN5L7MqAub6jgs=
 			</data>
 			<key>hash2</key>
 			<data>
-			9aKsDKOSVYgV8AC1oMDWuoo41LUJAuR54OttK08TNhI=
+			pJxwHncH5XUz1SGwPD1wZUhw62SLDZUKSI6fEr1I7ZQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -266,121 +266,121 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KG+MAARMrEL3ddhnu29ufvFASGw=
+			ezcmCSu/AZf6Yg2EE4g68sOmjLE=
 			</data>
 			<key>hash2</key>
 			<data>
-			WlgoolnWzu5eM/3KYeZKtiav3CK3A5tX4KsQfZVhFuM=
+			hhDfSkOcoFSxjrNrTXzE8JxZlM+l/cu71+KMBQJgf0o=
 			</data>
 		</dict>
 		<key>QBImagePicker.storyboardc/QBAlbumsNavigationController.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QK+W35VycE9BsBbq1NXheO/QoFs=
+			7aqkAW0KqKaHVgShWLdpKLVmoGU=
 			</data>
 			<key>hash2</key>
 			<data>
-			xKXPQjQ59YWFMWpZ/z03KFF9gdX2xp4N8rqUJ54ZPb8=
+			NVQhEiSDMmcSoWu48cUsQ3yHnf5TIp/mbaw2RXwpNBI=
 			</data>
 		</dict>
 		<key>QBImagePicker.storyboardc/QBAlbumsNavigationController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zY/WSvGTYhdcnr/439BfQkmJ6gA=
+			h4evHCfMOBsQEFj3A/9QOthymII=
 			</data>
 			<key>hash2</key>
 			<data>
-			Dxd4/ph61H/1N50+h45sr7j2u9O0jxXoVlGxXpVGPKs=
+			+EBNhfmW20fUUA9hgKbOR8iOeHlT1jD36KV8xLPvDmE=
 			</data>
 		</dict>
 		<key>QBImagePicker.storyboardc/QBAlbumsViewController.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LvtQbYIdRjklQuji2NKn7TWKLFg=
+			hWsqGmJKj8zUv/yLdEKeTAHRreg=
 			</data>
 			<key>hash2</key>
 			<data>
-			g8KnJU3qpNnEm5T79MmozBjh09jhDN3SzmHijxLwmIs=
+			A/lPCQ1IPBLlXe2hLny5+bfFhfWUwlSA27E6BPrCbew=
 			</data>
 		</dict>
 		<key>QBImagePicker.storyboardc/QBAlbumsViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			W3ouTxAC1Mi1DINt2fsXT3KCH20=
+			AClMIF7q0N0XGirM0sHv8Wk4UuM=
 			</data>
 			<key>hash2</key>
 			<data>
-			//L9F+HVAbZZieswHbzcYhfaZKaNk5GK5rksWx1H0Jo=
+			nx4OnEOwYqr9wflzgXrc9TCJL3ILTRhuF6Ec8Dl3FG0=
 			</data>
 		</dict>
 		<key>QBImagePicker.storyboardc/QBAssetsViewController.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oPq0Eb+W6t3GXpu7hHR+XlhiMjA=
+			o6bv+uJ77EwG7ftRnoWf1fbrhxw=
 			</data>
 			<key>hash2</key>
 			<data>
-			AUxDBRAtYgO8aiPkKpyDoMtE7t/66RROH4l5K/Nh3lA=
+			VooE1vLJ+kJQEj512kJGwyeo3+Q3W7z4J3ENdb99DZc=
 			</data>
 		</dict>
 		<key>QBImagePicker.storyboardc/QBAssetsViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8c1gVBugu0zrLj0y6DoZb8wWj6I=
+			jbkkEfDji/noDtz1ZtgaLX9QH0s=
 			</data>
 			<key>hash2</key>
 			<data>
-			jNmIgT8/0x71CsVxSCltSN/59AUCckQJKO/uUGFwWZU=
+			L5z+loAPdEXCGj4xtX0CRqo8x5wPvQsHaCOQNMLw3IA=
 			</data>
 		</dict>
 		<key>QBImagePicker.storyboardc/QL5-wR-LYt-view-66K-TS-Yoc.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8b616mMGeoGtW0q8slNTGKb6jW0=
+			ipCSYv7j4W15tVtr7fsKhZRHmCI=
 			</data>
 			<key>hash2</key>
 			<data>
-			SiDbmW9JKA3Ph6O1mhyspjW9AE1u7hVApQvndgihV00=
+			XoIM2P3Dt5t2oUHE8/M4ZzziJewwZwNqs2VdJLGHu4o=
 			</data>
 		</dict>
 		<key>QBImagePicker.storyboardc/QL5-wR-LYt-view-66K-TS-Yoc.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zmW7aoaBWTAs2oXlyGhvbvQicxo=
+			lra0vudo8hp0pYpNf5VfweVjyJ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			HOuekhLXSOBTFAycN9ua285iLKE3g45yckpUDk382Wk=
+			KD5kCrWZjqOroFb+5sdKaOW3EQ4Wih24yqqWtIHXKII=
 			</data>
 		</dict>
 		<key>QBImagePicker.storyboardc/QiH-NZ-ZGN-view-sD2-zK-ryo.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8s3yEU8MT+Vh59pIGTUi46Z0AuI=
+			QA1xJ+u4HGsgVq1notvEpoydvGo=
 			</data>
 			<key>hash2</key>
 			<data>
-			DxPVZMERElm4VlOjhai4KP3Dr8r6u5mQYeTW5t4i9Ns=
+			Y3Ee95n47EndAwHWSgy0vE7+R9MXMvCDpMQkhIR+8HY=
 			</data>
 		</dict>
 		<key>QBImagePicker.storyboardc/QiH-NZ-ZGN-view-sD2-zK-ryo.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UFUv8o6zpQdd64oepp/wH1y7NcU=
+			NzZugbQkddMWIQDjfCpxPdVC90M=
 			</data>
 			<key>hash2</key>
 			<data>
-			wmvb3xbRFhTtMAyhwvptOLqZft/zNYnfjrIpmhKWrdE=
+			pRZay3dHyfnUN0kTNULzT4WqSphjImNNLZBA3D/KheQ=
 			</data>
 		</dict>
 		<key>helpshift-console-override.txt</key>
