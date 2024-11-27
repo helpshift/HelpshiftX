@@ -1,0 +1,96 @@
+Helpshift SDK 10.4.0 Release Notes (for iOS)
+--------------------------------------------
+
+Helpshift is an embedded support desk for native apps.
+Helpshift SDK for iOS is required for having Helpshift support running on native apps.
+
+Requirements:
+iOS version requirements:
+https://developers.helpshift.com/sdkx_ios/getting-started/#version-requirements
+
+Documentation for Installation and Usage Instructions:
+http://developers.helpshift.com/
+
+New features:
+November 27, 2024
+
+Release Notes
+* Added support for iOS 18 and iPadOS 18.
+* Add support for user identities and related user data collection APIs.
+  - For more details on user identities, refer https://developers.helpshift.com/sdkx_ios/identity-users page.
+  - For more details on user data collection, refer https://developers.helpshift.com/sdkx_ios/tracking/#update-global-user-data.
+* Updated SDK logging to use OSLog framework instead of NSLog.
+* Error logs from SDK will always be printed on console.
+* SDK privacy manifest no longer includes user ID and email declarations. Apps using these fields need to declare it in their own manifest files.
+* Fixed a bug where some traces of bitcode were present in SDK framework, causing issues when uploading the app to App Store Connect.
+* Include debug symbols (dsym) file inside the framework.
+  - The disk size has been increased due to this addition.
+  - Does not affect the size of the HelpshiftX binary.
+  - dsym files are optional and can be removed if not needed from these locations: `HelpshiftX.xcframework/ios-arm64/dSYMs/` and `HelpshiftX.xcframework/ios-arm64_x86_64-simulator/dSYMs/`.
+* Fixed a bug where interacting with any webchat-related notification from the stack failed to clear rest of the notifications.
+* Attachment(Image/Video) upload will be no-op below iOS 14.
+Jun 13, 2024
+
+Release Notes
+* Fixed a bug where existing user conversation was lost if new user login happens while chat screen is open.
+Oct 31, 2023
+
+Release Notes
+* Users can select and send more than one attachment in conversations.
+* Support for multiple attachments in bot messages will be added in Q1’24.
+* Added support for iOS 17 and iPadOS 17.
+* Added a new API for fetching SDK X version. For more details, refer https://developers.helpshift.com//sdkx_ios/support-tools/#getting-the-sdk-version.
+* Added a new API for closing the currently active SDK session. For more details, refer https://developers.helpshift.com//sdkx_ios/support-tools/#closing-an-open-sdk-session.
+* Deprecated ViewController-based public APIs in favor of newer ViewController-less variants. For more details, refer https://developers.helpshift.com//sdkx_ios/support-tools/.
+* Login API now returns a boolean indicating whether login was successful or not. This change is in the existing API to introduce mandatory validations for login parameters and hence this might affect your code compilation. For more details, refer https://developers.helpshift.com//sdkx_ios/users/#logged-in-users.
+* Added support for attachments in Smart FAQs.
+* Replaced static constants with extern constants for better compatibility in apps having multiple translation units.
+* Fixed crash on selecting unsupported attachments using file picker.
+* Fixed a bug where presentFullScreenOniPad config was not being honored on opening SDK screen via notification click.
+* Removed bitcode support from SDK X framework. SDK X now ships in non-bitcode variant only.
+Mar 13, 2023
+
+Release Notes
+* Fix a bug where debug logs were not attached to an issue if it contained special characters.
+Jan 31, 2023
+
+Release Notes
+* Add new install config `isForChina` for apps in China region.
+Nov 24, 2022
+
+Release Notes
+* Fixed an issue with `setLanguage` API where the passed language was not being applied.
+Oct 11, 2022
+
+Release Notes
+* Added the capability for Outbound Support. You can reach out to your users proactively without they having to raise a ticket first. For more details, refer [Outbound support](https://developers.helpshift.com/sdkx_ios/outbound-support)
+* Introduced a new API `clearAnonymousUserOnLogin:(BOOL)shouldClear` to support maintaining anonymous user on login. For more details, refer [Anonymous users](https://developers.helpshift.com/sdkx_ios/users/#anonymous-users)
+* clearAnonymousUserOnLogin() API will be deprecated.
+* Removed the “Take Photo or Video” option from the attachment flow. You don’t have to ask for camera permission in your app for Helpshift use-cases anymore.
+* This is applicable to iOS 11 and above. On iOS 10 and below we are not showing attachment options on chat.
+May 09, 2022
+
+Release Notes
+* Add more verbose logging around legacy to SDK X migration scenarios.
+December 22, 2021
+
+Release Notes
+* Added support for adding breadcrumbs and debug logs to a new conversation filed by an end-user. For more details, refer our [Tracking](https://developers.helpshift.com/sdkx_ios/tracking) page.
+
+* Added support for showing an announcement in Help Center. For more details, refer [here](https://support.helpshift.com/hc/en/13-helpshift-technical-support/faq/643-help-center-procedures-prepare-an-announcement/).
+
+* Added migration support from legacy SDK to SDK X. For more details on how to migrate, refer our [migration guide](https://developers.helpshift.com/sdkx_ios/migration-guide).
+May 12, 2021
+
+Release Notes
+* Launched next-generation SDK X v10.0.0 which has lower size foot-print and requires minimal SDK upgrades to adopt new features and bug fixes.
+
+Getting started guide
+* To start using SDK X 10.0.0, please refer to the guide here: https://developers.helpshift.com/sdkx_ios/getting-started/
+September 25, 2020
+
+Release Notes
+* Launched next-generation SDK X Beta which has lower size foot-print and does not require SDK upgrades to adopt new features and bug fixes
+
+Getting started guide
+* To start using SDK X 1.0.0 beta, please refer to the guide here: https://developers.helpshift.com/sdkx_ios/getting-started/
