@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Jqkb/lIcux9s4+/DxpXPas8LgoU=
+		cJVx5jr6C7uCAceWcGSZ7th+zZU=
 		</data>
 		<key>Headers/Helpshift.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/HelpshiftDelegate.h</key>
 		<data>
-		9DUvdBEgOrI66p8QKRIt0oRAwjk=
+		bIczsR53xypG01NKjl4U1igbZJM=
 		</data>
 		<key>Headers/HelpshiftProactiveAPIConfigCollectorDelegate.h</key>
 		<data>
@@ -30,31 +30,31 @@
 		</data>
 		<key>HelpshiftChatViewController.nib/objects-11.0+.nib</key>
 		<data>
-		sDelJzXhh5ikdQyasV8IPvMpjHk=
+		DxI3oZ34X7TuRD46tGLhm6F+hFw=
 		</data>
 		<key>HelpshiftChatViewController.nib/runtime.nib</key>
 		<data>
-		FLvuITu5IlzYsSiikJq8m2ZL3qg=
+		Z6MQqa8FUbol9ujb6bpvVeF0A2g=
 		</data>
 		<key>HelpshiftFAQsViewController.nib/objects-11.0+.nib</key>
 		<data>
-		M9K0ioEdSSUhJCqOyjCuTL/miRQ=
+		JgfoJR+hhK8sX2Sx4/KBGp+W7Qs=
 		</data>
 		<key>HelpshiftFAQsViewController.nib/runtime.nib</key>
 		<data>
-		BMBh4TOU03mIvWzlBQ/cMaoHWLs=
+		h2jW1A9J0qFAHeD6B8WnAffJLCA=
 		</data>
 		<key>HsLoadingView.nib/objects-11.0+.nib</key>
 		<data>
-		Z9jj8VEjDV6XPnHHbKU+/bACIY0=
+		1Q7gotrasGocVTvMNvCMxRhgEP8=
 		</data>
 		<key>HsLoadingView.nib/runtime.nib</key>
 		<data>
-		s1m3UFw4VJLPF0zSKp5IXBaZ0ZM=
+		lKST3iyrNuvNIAlhUhCr3qiVsjk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3ZSWdjoUG8ubGLpv/C24sC6wqYg=
+		uIA1qGIQgLbUQvrOuKCbaR86w+I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,11 +83,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Jqkb/lIcux9s4+/DxpXPas8LgoU=
+			cJVx5jr6C7uCAceWcGSZ7th+zZU=
 			</data>
 			<key>hash2</key>
 			<data>
-			glGy1+n+MNvYktSrKdDVjEWyHbczne0Sfl6aONn1bj8=
+			xA7h0UQmORV8wrCrk4ZVuNSQSOHWFrbUlii8ripAi0o=
 			</data>
 		</dict>
 		<key>Headers/Helpshift.h</key>
@@ -105,11 +105,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9DUvdBEgOrI66p8QKRIt0oRAwjk=
+			bIczsR53xypG01NKjl4U1igbZJM=
 			</data>
 			<key>hash2</key>
 			<data>
-			dfWw5FY2cmkRV8NGMkNR03hcmDk5RDEFFK/Fm/eRH+A=
+			EBhW/ewVCn6NRqGVayDa8Ys1LWGT+R7vnsMtEMwp5bE=
 			</data>
 		</dict>
 		<key>Headers/HelpshiftProactiveAPIConfigCollectorDelegate.h</key>
@@ -149,66 +149,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sDelJzXhh5ikdQyasV8IPvMpjHk=
+			DxI3oZ34X7TuRD46tGLhm6F+hFw=
 			</data>
 			<key>hash2</key>
 			<data>
-			zWq3HO7ir4ByKtt+MvnLONxsyXwO5pEtzHEpha2PENw=
+			YDfMcpOa3yfwRNFNYA3+wSaFci3kCpB5BZlPfObHppo=
 			</data>
 		</dict>
 		<key>HelpshiftChatViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FLvuITu5IlzYsSiikJq8m2ZL3qg=
+			Z6MQqa8FUbol9ujb6bpvVeF0A2g=
 			</data>
 			<key>hash2</key>
 			<data>
-			YIxZjXjhm8LggVJJyrHHl/nXYcn7+lsB6tEqdWtThHU=
+			7zr7AS8AZcTlb2zT1F3NJ9Uk3yzqFXKItOxpJF1cgzw=
 			</data>
 		</dict>
 		<key>HelpshiftFAQsViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M9K0ioEdSSUhJCqOyjCuTL/miRQ=
+			JgfoJR+hhK8sX2Sx4/KBGp+W7Qs=
 			</data>
 			<key>hash2</key>
 			<data>
-			6ZOZ1lbeWYOceRDezTRnu8bPyw+iLwr7husqy5O/+38=
+			idjgVy9yC078TY6v6hfSp7KhqsHFIOzKp+lRRYJme44=
 			</data>
 		</dict>
 		<key>HelpshiftFAQsViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BMBh4TOU03mIvWzlBQ/cMaoHWLs=
+			h2jW1A9J0qFAHeD6B8WnAffJLCA=
 			</data>
 			<key>hash2</key>
 			<data>
-			hNlfq1sIb6KuQfaoLKGphQ5b9uijwuE063dr1iNSr2Y=
+			R2l2ssCbIWej3ubI9jzUMWQIe0p8LXUZztMq9a9YmZY=
 			</data>
 		</dict>
 		<key>HsLoadingView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Z9jj8VEjDV6XPnHHbKU+/bACIY0=
+			1Q7gotrasGocVTvMNvCMxRhgEP8=
 			</data>
 			<key>hash2</key>
 			<data>
-			PEAc+aoMMkJhfx5tf3R+K5MCj1KboccIcRoqXsgnx4g=
+			B6NHU2l4uDL8sdOJg3tDSarph3lPJRT0GW5lW2B8jDE=
 			</data>
 		</dict>
 		<key>HsLoadingView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s1m3UFw4VJLPF0zSKp5IXBaZ0ZM=
+			lKST3iyrNuvNIAlhUhCr3qiVsjk=
 			</data>
 			<key>hash2</key>
 			<data>
-			aNa/+3xyfZ5jHJEOFNlqX1tt+hTgh50xqpm5qmw/f2Y=
+			ooYznb/HfnMhlqmBphue4P1Exc3EHouMYfhCM4yS/yY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
