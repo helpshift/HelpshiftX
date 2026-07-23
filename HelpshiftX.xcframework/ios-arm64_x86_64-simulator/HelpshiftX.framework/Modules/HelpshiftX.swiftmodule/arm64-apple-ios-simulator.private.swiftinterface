@@ -1,0 +1,119 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.3.2 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -O -enable-experimental-feature DebugDescriptionMacro -module-name HelpshiftX
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.2
+import DeveloperToolsSupport
+import Foundation
+@_exported import HelpshiftX
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os.log
+import os
+@_spi(HelpshiftXInternal) @objc public enum HsLogLevel : Swift.Int, Swift.Sendable {
+  @_spi(HelpshiftXInternal) case fatal = 0
+  @_spi(HelpshiftXInternal) case error = 1
+  @_spi(HelpshiftXInternal) case warning = 2
+  @_spi(HelpshiftXInternal) case debug = 3
+  @_spi(HelpshiftXInternal) public init?(rawValue: Swift.Int)
+  @_spi(HelpshiftXInternal) public typealias RawValue = Swift.Int
+  @_spi(HelpshiftXInternal) public var rawValue: Swift.Int {
+    @_spi(HelpshiftXInternal) get
+  }
+}
+@_spi(HelpshiftXInternal) @objc @_inheritsConvenienceInitializers @objcMembers final public class HsCoreLogger : ObjectiveC.NSObject {
+  @_spi(HelpshiftXInternal) @objc public static func enableConsoleLogging(_ enabled: Swift.Bool)
+  @_spi(HelpshiftXInternal) @objc public static func isConsoleLoggingEnabled() -> Swift.Bool
+  @_spi(HelpshiftXInternal) @objc public static func setLogLevel(_ inputLogLevel: HelpshiftX.HsLogLevel)
+  @_spi(HelpshiftXInternal) @objc public static func getLogLevel() -> HelpshiftX.HsLogLevel
+  @_spi(HelpshiftXInternal) @objc public static func logError(withTag tag: Swift.String, message: Swift.String)
+  @_spi(HelpshiftXInternal) @objc public static func logError(withTag tag: Swift.String, message: Swift.String, error: Foundation.NSError)
+  @_spi(HelpshiftXInternal) @objc public static func logWarning(withTag tag: Swift.String, message: Swift.String)
+  @_spi(HelpshiftXInternal) @objc public static func logWarning(withTag tag: Swift.String, message: Swift.String, error: Foundation.NSError)
+  @_spi(HelpshiftXInternal) @objc public static func logDebug(withTag tag: Swift.String, message: Swift.String)
+  @_spi(HelpshiftXInternal) @objc public static func logDebug(withTag tag: Swift.String, message: Swift.String, error: Foundation.NSError)
+  @_spi(HelpshiftXInternal) @objc override dynamic public init()
+  @_spi(HelpshiftXInternal) @objc deinit
+}
+@_spi(HelpshiftXInternal) @objc @objcMembers final public class HsPersistentStorage : ObjectiveC.NSObject {
+  @_spi(HelpshiftXInternal) @objc public init(persistentDomainName: Swift.String)
+  @_spi(HelpshiftXInternal) @objc final public func setString(_ string: Swift.String?, forKey key: Swift.String)
+  @_spi(HelpshiftXInternal) @objc final public func string(forKey key: Swift.String) -> Swift.String?
+  @_spi(HelpshiftXInternal) @objc final public func setBool(_ boolean: Swift.Bool, forKey key: Swift.String)
+  @_spi(HelpshiftXInternal) @objc final public func bool(forKey key: Swift.String) -> Swift.Bool
+  @_spi(HelpshiftXInternal) @objc final public func setNumber(_ number: Foundation.NSNumber?, forKey key: Swift.String)
+  @_spi(HelpshiftXInternal) @objc final public func number(forKey key: Swift.String) -> Foundation.NSNumber?
+  @_spi(HelpshiftXInternal) @objc final public func setDictionary(_ dictionary: [Swift.AnyHashable : Any]?, forKey key: Swift.String)
+  @_spi(HelpshiftXInternal) @objc final public func dictionary(forKey key: Swift.String) -> [Swift.AnyHashable : Any]?
+  @_spi(HelpshiftXInternal) @objc final public func setArray(_ array: [Any]?, forKey key: Swift.String)
+  @_spi(HelpshiftXInternal) @objc final public func array(forKey key: Swift.String) -> [Any]?
+  @_spi(HelpshiftXInternal) @objc final public func deleteData(forKey key: Swift.String)
+  @_spi(HelpshiftXInternal) @objc final public func clearStorage()
+  @_spi(HelpshiftXInternal) @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class HsColorConstants : ObjectiveC.NSObject {
+  @objc public static func color(rgb: Swift.UInt32) -> UIKit.UIColor
+  @objc public static var defaultConversationIndicatorColor: UIKit.UIColor {
+    @objc get
+  }
+  @objc public static var defaultCloseButtonColor: UIKit.UIColor {
+    @objc get
+  }
+  @objc public static var defaultRetryButtonColor: UIKit.UIColor {
+    @objc get
+  }
+  @objc public static var defaultGlobalColor: UIKit.UIColor {
+    @objc get
+  }
+  @objc public static var defaultChatBackgroundColor: UIKit.UIColor {
+    @objc get
+  }
+  @objc public static var defaultBottomNotchViewBackgroundColor: UIKit.UIColor {
+    @objc get
+  }
+  @objc public static var defaultInAppBannerBackgroundColor: UIKit.UIColor {
+    @objc get
+  }
+  @objc public static var defaultInAppBannerTitleTextColor: UIKit.UIColor {
+    @objc get
+  }
+  @objc public static var defaultInAppBannerSubtitleTextColor: UIKit.UIColor {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class HsTheme : ObjectiveC.NSObject {
+  @objc final public var inAppBannerBackgroundColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc final public var inAppBannerTextColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc final public var statusBarColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc final public var retryButtonColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc final public var closeButtonColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc final public var loadingScreenConversationIconColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_spi(HelpshiftXInternal) extension HelpshiftX.HsLogLevel : Swift.Equatable {}
+@_spi(HelpshiftXInternal) extension HelpshiftX.HsLogLevel : Swift.Hashable {}
+@_spi(HelpshiftXInternal) extension HelpshiftX.HsLogLevel : Swift.RawRepresentable {}

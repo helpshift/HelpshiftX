@@ -1,6 +1,14 @@
-framework module HelpshiftX {
-  umbrella header "HelpshiftX.h"
-  export *
+//
+// module.modulemap
+// Created for HelpshiftX in 2026
+// Copyright © 2026 Helpshift. All rights reserved.
+//
 
-  module * { export * }
+framework module HelpshiftX {
+    umbrella header "HelpshiftX.h"
+    export *
+}
+
+module HelpshiftX.Swift {
+  header "HelpshiftX-Swift.h"
 }

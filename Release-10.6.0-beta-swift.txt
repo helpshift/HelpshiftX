@@ -1,5 +1,5 @@
-Helpshift SDK 10.5.0 Release Notes (for iOS)
---------------------------------------------
+Helpshift SDK 10.6.0-beta-swift Release Notes (for iOS)
+-------------------------------------------------------
 
 Helpshift is an embedded support desk for native apps.
 Helpshift SDK for iOS is required for having Helpshift support running on native apps.
@@ -12,6 +12,9 @@ Documentation for Installation and Usage Instructions:
 http://developers.helpshift.com/
 
 New features:
+Jul 23, 2026
+
+- Beta build for adding Swift language support
 Dec 03, 2025
 
 - Introduced Proactive Engagement feature which lets you reach out to your players by sending Push/In app Notifications on their mobile devices and engage in various ways including starting conversations.

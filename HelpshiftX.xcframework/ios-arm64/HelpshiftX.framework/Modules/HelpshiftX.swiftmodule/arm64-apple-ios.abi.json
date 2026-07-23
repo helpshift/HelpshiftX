@@ -1,0 +1,2953 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "HelpshiftX",
+    "printedName": "HelpshiftX",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HelpshiftX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "HelpshiftX"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HsLogLevel",
+        "printedName": "HsLogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "fatal",
+            "printedName": "fatal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HelpshiftX.HsLogLevel.Type) -> HelpshiftX.HsLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HsLogLevel",
+                    "printedName": "HelpshiftX.HsLogLevel",
+                    "usr": "c:@M@HelpshiftX@E@HsLogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HelpshiftX.HsLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HsLogLevel",
+                        "printedName": "HelpshiftX.HsLogLevel",
+                        "usr": "c:@M@HelpshiftX@E@HsLogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@HelpshiftX@E@HsLogLevel@HsLogLevelFatal",
+            "mangledName": "$s10HelpshiftX10HsLogLevelO5fatalyA2CmF",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0,
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HelpshiftX.HsLogLevel.Type) -> HelpshiftX.HsLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HsLogLevel",
+                    "printedName": "HelpshiftX.HsLogLevel",
+                    "usr": "c:@M@HelpshiftX@E@HsLogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HelpshiftX.HsLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HsLogLevel",
+                        "printedName": "HelpshiftX.HsLogLevel",
+                        "usr": "c:@M@HelpshiftX@E@HsLogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@HelpshiftX@E@HsLogLevel@HsLogLevelError",
+            "mangledName": "$s10HelpshiftX10HsLogLevelO5erroryA2CmF",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1,
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "warning",
+            "printedName": "warning",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HelpshiftX.HsLogLevel.Type) -> HelpshiftX.HsLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HsLogLevel",
+                    "printedName": "HelpshiftX.HsLogLevel",
+                    "usr": "c:@M@HelpshiftX@E@HsLogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HelpshiftX.HsLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HsLogLevel",
+                        "printedName": "HelpshiftX.HsLogLevel",
+                        "usr": "c:@M@HelpshiftX@E@HsLogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@HelpshiftX@E@HsLogLevel@HsLogLevelWarning",
+            "mangledName": "$s10HelpshiftX10HsLogLevelO7warningyA2CmF",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2,
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HelpshiftX.HsLogLevel.Type) -> HelpshiftX.HsLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HsLogLevel",
+                    "printedName": "HelpshiftX.HsLogLevel",
+                    "usr": "c:@M@HelpshiftX@E@HsLogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HelpshiftX.HsLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HsLogLevel",
+                        "printedName": "HelpshiftX.HsLogLevel",
+                        "usr": "c:@M@HelpshiftX@E@HsLogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@HelpshiftX@E@HsLogLevel@HsLogLevelDebug",
+            "mangledName": "$s10HelpshiftX10HsLogLevelO5debugyA2CmF",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3,
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HelpshiftX.HsLogLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HsLogLevel",
+                    "printedName": "HelpshiftX.HsLogLevel",
+                    "usr": "c:@M@HelpshiftX@E@HsLogLevel"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10HelpshiftX10HsLogLevelO8rawValueACSgSi_tcfc",
+            "mangledName": "$s10HelpshiftX10HsLogLevelO8rawValueACSgSi_tcfc",
+            "moduleName": "HelpshiftX",
+            "implicit": true,
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10HelpshiftX10HsLogLevelO8rawValueSivp",
+            "mangledName": "$s10HelpshiftX10HsLogLevelO8rawValueSivp",
+            "moduleName": "HelpshiftX",
+            "implicit": true,
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HelpshiftX10HsLogLevelO8rawValueSivg",
+                "mangledName": "$s10HelpshiftX10HsLogLevelO8rawValueSivg",
+                "moduleName": "HelpshiftX",
+                "implicit": true,
+                "spi_group_names": [
+                  "HelpshiftXInternal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@HelpshiftX@E@HsLogLevel",
+        "mangledName": "$s10HelpshiftX10HsLogLevelO",
+        "moduleName": "HelpshiftX",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "HelpshiftXInternal"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HsCoreLogger",
+        "printedName": "HsCoreLogger",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "enableConsoleLogging",
+            "printedName": "enableConsoleLogging(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsCoreLogger(cm)enableConsoleLogging:",
+            "mangledName": "$s10HelpshiftX12HsCoreLoggerC20enableConsoleLoggingyySbFZ",
+            "moduleName": "HelpshiftX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isConsoleLoggingEnabled",
+            "printedName": "isConsoleLoggingEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsCoreLogger(cm)isConsoleLoggingEnabled",
+            "mangledName": "$s10HelpshiftX12HsCoreLoggerC23isConsoleLoggingEnabledSbyFZ",
+            "moduleName": "HelpshiftX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLogLevel",
+            "printedName": "setLogLevel(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HsLogLevel",
+                "printedName": "HelpshiftX.HsLogLevel",
+                "usr": "c:@M@HelpshiftX@E@HsLogLevel"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsCoreLogger(cm)setLogLevel:",
+            "mangledName": "$s10HelpshiftX12HsCoreLoggerC11setLogLevelyyAA0bfG0OFZ",
+            "moduleName": "HelpshiftX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLogLevel",
+            "printedName": "getLogLevel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HsLogLevel",
+                "printedName": "HelpshiftX.HsLogLevel",
+                "usr": "c:@M@HelpshiftX@E@HsLogLevel"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsCoreLogger(cm)getLogLevel",
+            "mangledName": "$s10HelpshiftX12HsCoreLoggerC11getLogLevelAA0bfG0OyFZ",
+            "moduleName": "HelpshiftX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logError",
+            "printedName": "logError(withTag:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsCoreLogger(cm)logErrorWithTag:message:",
+            "mangledName": "$s10HelpshiftX12HsCoreLoggerC8logError7withTag7messageySS_SStFZ",
+            "moduleName": "HelpshiftX",
+            "static": true,
+            "objc_name": "logErrorWithTag:message:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logError",
+            "printedName": "logError(withTag:message:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSError",
+                "printedName": "Foundation.NSError",
+                "usr": "c:objc(cs)NSError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsCoreLogger(cm)logErrorWithTag:message:error:",
+            "mangledName": "$s10HelpshiftX12HsCoreLoggerC8logError7withTag7message5errorySS_SSSo7NSErrorCtFZ",
+            "moduleName": "HelpshiftX",
+            "static": true,
+            "objc_name": "logErrorWithTag:message:error:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logWarning",
+            "printedName": "logWarning(withTag:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsCoreLogger(cm)logWarningWithTag:message:",
+            "mangledName": "$s10HelpshiftX12HsCoreLoggerC10logWarning7withTag7messageySS_SStFZ",
+            "moduleName": "HelpshiftX",
+            "static": true,
+            "objc_name": "logWarningWithTag:message:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logWarning",
+            "printedName": "logWarning(withTag:message:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSError",
+                "printedName": "Foundation.NSError",
+                "usr": "c:objc(cs)NSError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsCoreLogger(cm)logWarningWithTag:message:error:",
+            "mangledName": "$s10HelpshiftX12HsCoreLoggerC10logWarning7withTag7message5errorySS_SSSo7NSErrorCtFZ",
+            "moduleName": "HelpshiftX",
+            "static": true,
+            "objc_name": "logWarningWithTag:message:error:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logDebug",
+            "printedName": "logDebug(withTag:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsCoreLogger(cm)logDebugWithTag:message:",
+            "mangledName": "$s10HelpshiftX12HsCoreLoggerC8logDebug7withTag7messageySS_SStFZ",
+            "moduleName": "HelpshiftX",
+            "static": true,
+            "objc_name": "logDebugWithTag:message:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logDebug",
+            "printedName": "logDebug(withTag:message:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSError",
+                "printedName": "Foundation.NSError",
+                "usr": "c:objc(cs)NSError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsCoreLogger(cm)logDebugWithTag:message:error:",
+            "mangledName": "$s10HelpshiftX12HsCoreLoggerC8logDebug7withTag7message5errorySS_SSSo7NSErrorCtFZ",
+            "moduleName": "HelpshiftX",
+            "static": true,
+            "objc_name": "logDebugWithTag:message:error:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HsCoreLogger",
+                "printedName": "HelpshiftX.HsCoreLogger",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsCoreLogger"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsCoreLogger(im)init",
+            "mangledName": "$s10HelpshiftX12HsCoreLoggerCACycfc",
+            "moduleName": "HelpshiftX",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HelpshiftX@objc(cs)HsCoreLogger",
+        "mangledName": "$s10HelpshiftX12HsCoreLoggerC",
+        "moduleName": "HelpshiftX",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjCMembers",
+          "SPIAccessControl",
+          "ObjC"
+        ],
+        "spi_group_names": [
+          "HelpshiftXInternal"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HelpshiftX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HsPersistentStorage",
+        "printedName": "HsPersistentStorage",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(persistentDomainName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HsPersistentStorage",
+                "printedName": "HelpshiftX.HsPersistentStorage",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsPersistentStorage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsPersistentStorage(im)initWithPersistentDomainName:",
+            "mangledName": "$s10HelpshiftX19HsPersistentStorageC20persistentDomainNameACSS_tcfc",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setString",
+            "printedName": "setString(_:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsPersistentStorage(im)setString:forKey:",
+            "mangledName": "$s10HelpshiftX19HsPersistentStorageC9setString_6forKeyySSSg_SStF",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "string",
+            "printedName": "string(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsPersistentStorage(im)stringForKey:",
+            "mangledName": "$s10HelpshiftX19HsPersistentStorageC6string6forKeySSSgSS_tF",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setBool",
+            "printedName": "setBool(_:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsPersistentStorage(im)setBool:forKey:",
+            "mangledName": "$s10HelpshiftX19HsPersistentStorageC7setBool_6forKeyySb_SStF",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bool",
+            "printedName": "bool(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsPersistentStorage(im)boolForKey:",
+            "mangledName": "$s10HelpshiftX19HsPersistentStorageC4bool6forKeySbSS_tF",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setNumber",
+            "printedName": "setNumber(_:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsPersistentStorage(im)setNumber:forKey:",
+            "mangledName": "$s10HelpshiftX19HsPersistentStorageC9setNumber_6forKeyySo8NSNumberCSg_SStF",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "number",
+            "printedName": "number(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsPersistentStorage(im)numberForKey:",
+            "mangledName": "$s10HelpshiftX19HsPersistentStorageC6number6forKeySo8NSNumberCSgSS_tF",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDictionary",
+            "printedName": "setDictionary(_:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.AnyHashable : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsPersistentStorage(im)setDictionary:forKey:",
+            "mangledName": "$s10HelpshiftX19HsPersistentStorageC13setDictionary_6forKeyySDys11AnyHashableVypGSg_SStF",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dictionary",
+            "printedName": "dictionary(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.AnyHashable : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsPersistentStorage(im)dictionaryForKey:",
+            "mangledName": "$s10HelpshiftX19HsPersistentStorageC10dictionary6forKeySDys11AnyHashableVypGSgSS_tF",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setArray",
+            "printedName": "setArray(_:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsPersistentStorage(im)setArray:forKey:",
+            "mangledName": "$s10HelpshiftX19HsPersistentStorageC8setArray_6forKeyySayypGSg_SStF",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "array",
+            "printedName": "array(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsPersistentStorage(im)arrayForKey:",
+            "mangledName": "$s10HelpshiftX19HsPersistentStorageC5array6forKeySayypGSgSS_tF",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteData",
+            "printedName": "deleteData(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsPersistentStorage(im)deleteDataForKey:",
+            "mangledName": "$s10HelpshiftX19HsPersistentStorageC10deleteData6forKeyySS_tF",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearStorage",
+            "printedName": "clearStorage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsPersistentStorage(im)clearStorage",
+            "mangledName": "$s10HelpshiftX19HsPersistentStorageC05clearD0yyF",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HsPersistentStorage",
+                "printedName": "HelpshiftX.HsPersistentStorage",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsPersistentStorage"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsPersistentStorage(im)init",
+            "mangledName": "$s10HelpshiftX19HsPersistentStorageCACycfc",
+            "moduleName": "HelpshiftX",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "spi_group_names": [
+              "HelpshiftXInternal"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HelpshiftX@objc(cs)HsPersistentStorage",
+        "mangledName": "$s10HelpshiftX19HsPersistentStorageC",
+        "moduleName": "HelpshiftX",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjCMembers",
+          "SPIAccessControl",
+          "ObjC"
+        ],
+        "spi_group_names": [
+          "HelpshiftXInternal"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HelpshiftX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HsColorConstants",
+        "printedName": "HsColorConstants",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "color",
+            "printedName": "color(rgb:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants(cm)colorWithRgb:",
+            "mangledName": "$s10HelpshiftX16HsColorConstantsC5color3rgbSo7UIColorCs6UInt32V_tFZ",
+            "moduleName": "HelpshiftX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "defaultConversationIndicatorColor",
+            "printedName": "defaultConversationIndicatorColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants(cpy)defaultConversationIndicatorColor",
+            "mangledName": "$s10HelpshiftX16HsColorConstantsC028defaultConversationIndicatorC0So7UIColorCvpZ",
+            "moduleName": "HelpshiftX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants(cm)defaultConversationIndicatorColor",
+                "mangledName": "$s10HelpshiftX16HsColorConstantsC028defaultConversationIndicatorC0So7UIColorCvgZ",
+                "moduleName": "HelpshiftX",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultCloseButtonColor",
+            "printedName": "defaultCloseButtonColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants(cpy)defaultCloseButtonColor",
+            "mangledName": "$s10HelpshiftX16HsColorConstantsC018defaultCloseButtonC0So7UIColorCvpZ",
+            "moduleName": "HelpshiftX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants(cm)defaultCloseButtonColor",
+                "mangledName": "$s10HelpshiftX16HsColorConstantsC018defaultCloseButtonC0So7UIColorCvgZ",
+                "moduleName": "HelpshiftX",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultRetryButtonColor",
+            "printedName": "defaultRetryButtonColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants(cpy)defaultRetryButtonColor",
+            "mangledName": "$s10HelpshiftX16HsColorConstantsC018defaultRetryButtonC0So7UIColorCvpZ",
+            "moduleName": "HelpshiftX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants(cm)defaultRetryButtonColor",
+                "mangledName": "$s10HelpshiftX16HsColorConstantsC018defaultRetryButtonC0So7UIColorCvgZ",
+                "moduleName": "HelpshiftX",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultGlobalColor",
+            "printedName": "defaultGlobalColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants(cpy)defaultGlobalColor",
+            "mangledName": "$s10HelpshiftX16HsColorConstantsC013defaultGlobalC0So7UIColorCvpZ",
+            "moduleName": "HelpshiftX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants(cm)defaultGlobalColor",
+                "mangledName": "$s10HelpshiftX16HsColorConstantsC013defaultGlobalC0So7UIColorCvgZ",
+                "moduleName": "HelpshiftX",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultChatBackgroundColor",
+            "printedName": "defaultChatBackgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants(cpy)defaultChatBackgroundColor",
+            "mangledName": "$s10HelpshiftX16HsColorConstantsC021defaultChatBackgroundC0So7UIColorCvpZ",
+            "moduleName": "HelpshiftX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants(cm)defaultChatBackgroundColor",
+                "mangledName": "$s10HelpshiftX16HsColorConstantsC021defaultChatBackgroundC0So7UIColorCvgZ",
+                "moduleName": "HelpshiftX",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultBottomNotchViewBackgroundColor",
+            "printedName": "defaultBottomNotchViewBackgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants(cpy)defaultBottomNotchViewBackgroundColor",
+            "mangledName": "$s10HelpshiftX16HsColorConstantsC032defaultBottomNotchViewBackgroundC0So7UIColorCvpZ",
+            "moduleName": "HelpshiftX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants(cm)defaultBottomNotchViewBackgroundColor",
+                "mangledName": "$s10HelpshiftX16HsColorConstantsC032defaultBottomNotchViewBackgroundC0So7UIColorCvgZ",
+                "moduleName": "HelpshiftX",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultInAppBannerBackgroundColor",
+            "printedName": "defaultInAppBannerBackgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants(cpy)defaultInAppBannerBackgroundColor",
+            "mangledName": "$s10HelpshiftX16HsColorConstantsC028defaultInAppBannerBackgroundC0So7UIColorCvpZ",
+            "moduleName": "HelpshiftX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants(cm)defaultInAppBannerBackgroundColor",
+                "mangledName": "$s10HelpshiftX16HsColorConstantsC028defaultInAppBannerBackgroundC0So7UIColorCvgZ",
+                "moduleName": "HelpshiftX",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultInAppBannerTitleTextColor",
+            "printedName": "defaultInAppBannerTitleTextColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants(cpy)defaultInAppBannerTitleTextColor",
+            "mangledName": "$s10HelpshiftX16HsColorConstantsC027defaultInAppBannerTitleTextC0So7UIColorCvpZ",
+            "moduleName": "HelpshiftX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants(cm)defaultInAppBannerTitleTextColor",
+                "mangledName": "$s10HelpshiftX16HsColorConstantsC027defaultInAppBannerTitleTextC0So7UIColorCvgZ",
+                "moduleName": "HelpshiftX",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultInAppBannerSubtitleTextColor",
+            "printedName": "defaultInAppBannerSubtitleTextColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants(cpy)defaultInAppBannerSubtitleTextColor",
+            "mangledName": "$s10HelpshiftX16HsColorConstantsC030defaultInAppBannerSubtitleTextC0So7UIColorCvpZ",
+            "moduleName": "HelpshiftX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants(cm)defaultInAppBannerSubtitleTextColor",
+                "mangledName": "$s10HelpshiftX16HsColorConstantsC030defaultInAppBannerSubtitleTextC0So7UIColorCvgZ",
+                "moduleName": "HelpshiftX",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HsColorConstants",
+                "printedName": "HelpshiftX.HsColorConstants",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants(im)init",
+            "mangledName": "$s10HelpshiftX16HsColorConstantsCACycfc",
+            "moduleName": "HelpshiftX",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HelpshiftX@objc(cs)HsColorConstants",
+        "mangledName": "$s10HelpshiftX16HsColorConstantsC",
+        "moduleName": "HelpshiftX",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HelpshiftX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HsTheme",
+        "printedName": "HsTheme",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "inAppBannerBackgroundColor",
+            "printedName": "inAppBannerBackgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsTheme(py)inAppBannerBackgroundColor",
+            "mangledName": "$s10HelpshiftX7HsThemeC26inAppBannerBackgroundColorSo7UIColorCvp",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsTheme(im)inAppBannerBackgroundColor",
+                "mangledName": "$s10HelpshiftX7HsThemeC26inAppBannerBackgroundColorSo7UIColorCvg",
+                "moduleName": "HelpshiftX",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsTheme(im)setInAppBannerBackgroundColor:",
+                "mangledName": "$s10HelpshiftX7HsThemeC26inAppBannerBackgroundColorSo7UIColorCvs",
+                "moduleName": "HelpshiftX",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HelpshiftX7HsThemeC26inAppBannerBackgroundColorSo7UIColorCvM",
+                "mangledName": "$s10HelpshiftX7HsThemeC26inAppBannerBackgroundColorSo7UIColorCvM",
+                "moduleName": "HelpshiftX",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inAppBannerTextColor",
+            "printedName": "inAppBannerTextColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsTheme(py)inAppBannerTextColor",
+            "mangledName": "$s10HelpshiftX7HsThemeC20inAppBannerTextColorSo7UIColorCvp",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsTheme(im)inAppBannerTextColor",
+                "mangledName": "$s10HelpshiftX7HsThemeC20inAppBannerTextColorSo7UIColorCvg",
+                "moduleName": "HelpshiftX",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsTheme(im)setInAppBannerTextColor:",
+                "mangledName": "$s10HelpshiftX7HsThemeC20inAppBannerTextColorSo7UIColorCvs",
+                "moduleName": "HelpshiftX",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HelpshiftX7HsThemeC20inAppBannerTextColorSo7UIColorCvM",
+                "mangledName": "$s10HelpshiftX7HsThemeC20inAppBannerTextColorSo7UIColorCvM",
+                "moduleName": "HelpshiftX",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "statusBarColor",
+            "printedName": "statusBarColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsTheme(py)statusBarColor",
+            "mangledName": "$s10HelpshiftX7HsThemeC14statusBarColorSo7UIColorCvp",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsTheme(im)statusBarColor",
+                "mangledName": "$s10HelpshiftX7HsThemeC14statusBarColorSo7UIColorCvg",
+                "moduleName": "HelpshiftX",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsTheme(im)setStatusBarColor:",
+                "mangledName": "$s10HelpshiftX7HsThemeC14statusBarColorSo7UIColorCvs",
+                "moduleName": "HelpshiftX",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HelpshiftX7HsThemeC14statusBarColorSo7UIColorCvM",
+                "mangledName": "$s10HelpshiftX7HsThemeC14statusBarColorSo7UIColorCvM",
+                "moduleName": "HelpshiftX",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "retryButtonColor",
+            "printedName": "retryButtonColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsTheme(py)retryButtonColor",
+            "mangledName": "$s10HelpshiftX7HsThemeC16retryButtonColorSo7UIColorCvp",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsTheme(im)retryButtonColor",
+                "mangledName": "$s10HelpshiftX7HsThemeC16retryButtonColorSo7UIColorCvg",
+                "moduleName": "HelpshiftX",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsTheme(im)setRetryButtonColor:",
+                "mangledName": "$s10HelpshiftX7HsThemeC16retryButtonColorSo7UIColorCvs",
+                "moduleName": "HelpshiftX",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HelpshiftX7HsThemeC16retryButtonColorSo7UIColorCvM",
+                "mangledName": "$s10HelpshiftX7HsThemeC16retryButtonColorSo7UIColorCvM",
+                "moduleName": "HelpshiftX",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "closeButtonColor",
+            "printedName": "closeButtonColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsTheme(py)closeButtonColor",
+            "mangledName": "$s10HelpshiftX7HsThemeC16closeButtonColorSo7UIColorCvp",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsTheme(im)closeButtonColor",
+                "mangledName": "$s10HelpshiftX7HsThemeC16closeButtonColorSo7UIColorCvg",
+                "moduleName": "HelpshiftX",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsTheme(im)setCloseButtonColor:",
+                "mangledName": "$s10HelpshiftX7HsThemeC16closeButtonColorSo7UIColorCvs",
+                "moduleName": "HelpshiftX",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HelpshiftX7HsThemeC16closeButtonColorSo7UIColorCvM",
+                "mangledName": "$s10HelpshiftX7HsThemeC16closeButtonColorSo7UIColorCvM",
+                "moduleName": "HelpshiftX",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loadingScreenConversationIconColor",
+            "printedName": "loadingScreenConversationIconColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsTheme(py)loadingScreenConversationIconColor",
+            "mangledName": "$s10HelpshiftX7HsThemeC34loadingScreenConversationIconColorSo7UIColorCvp",
+            "moduleName": "HelpshiftX",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsTheme(im)loadingScreenConversationIconColor",
+                "mangledName": "$s10HelpshiftX7HsThemeC34loadingScreenConversationIconColorSo7UIColorCvg",
+                "moduleName": "HelpshiftX",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsTheme(im)setLoadingScreenConversationIconColor:",
+                "mangledName": "$s10HelpshiftX7HsThemeC34loadingScreenConversationIconColorSo7UIColorCvs",
+                "moduleName": "HelpshiftX",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HelpshiftX7HsThemeC34loadingScreenConversationIconColorSo7UIColorCvM",
+                "mangledName": "$s10HelpshiftX7HsThemeC34loadingScreenConversationIconColorSo7UIColorCvM",
+                "moduleName": "HelpshiftX",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HsTheme",
+                "printedName": "HelpshiftX.HsTheme",
+                "usr": "c:@M@HelpshiftX@objc(cs)HsTheme"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HelpshiftX@objc(cs)HsTheme(im)init",
+            "mangledName": "$s10HelpshiftX7HsThemeCACycfc",
+            "moduleName": "HelpshiftX",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HelpshiftX@objc(cs)HsTheme",
+        "mangledName": "$s10HelpshiftX7HsThemeC",
+        "moduleName": "HelpshiftX",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HelpshiftX"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HelpshiftX"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HelpshiftX"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "HelpshiftX"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jenkins\/builds\/repos\/isphinx\/iOS\/HelpshiftX\/HelpshiftX\/Sources\/Utils\/HsCoreLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/builds\/repos\/isphinx\/iOS\/HelpshiftX\/HelpshiftX\/Sources\/Utils\/HsCoreLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 257,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/builds\/repos\/isphinx\/iOS\/HelpshiftX\/HelpshiftX\/Sources\/Utils\/HsCoreLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 278,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/builds\/repos\/isphinx\/iOS\/HelpshiftX\/HelpshiftX\/Sources\/Utils\/HsCoreLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 297,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/builds\/repos\/isphinx\/iOS\/HelpshiftX\/HelpshiftX\/Sources\/Utils\/HsCoreLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 420,
+      "length": 20,
+      "value": "\"com.helpshift.sdkx\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/builds\/repos\/isphinx\/iOS\/HelpshiftX\/HelpshiftX\/Sources\/Utils\/HsCoreLogger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 676,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/builds\/repos\/isphinx\/iOS\/HelpshiftX\/HelpshiftX\/Sources\/Persistence\/HSPersistentStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 262,
+      "length": 21,
+      "value": "\"HsPersistentStorage\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/builds\/repos\/isphinx\/iOS\/HelpshiftX\/HelpshiftX\/Sources\/Utils\/HSColorConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 553,
+      "length": 8,
+      "value": "0xC8CACC"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/builds\/repos\/isphinx\/iOS\/HelpshiftX\/HelpshiftX\/Sources\/Utils\/HSColorConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 646,
+      "length": 8,
+      "value": "0x000000"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/builds\/repos\/isphinx\/iOS\/HelpshiftX\/HelpshiftX\/Sources\/Utils\/HSColorConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 739,
+      "length": 8,
+      "value": "0x000000"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/builds\/repos\/isphinx\/iOS\/HelpshiftX\/HelpshiftX\/Sources\/Utils\/HSColorConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 827,
+      "length": 8,
+      "value": "0x37329A"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/builds\/repos\/isphinx\/iOS\/HelpshiftX\/HelpshiftX\/Sources\/Utils\/HSColorConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 923,
+      "length": 8,
+      "value": "0xF8F9F9"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/builds\/repos\/isphinx\/iOS\/HelpshiftX\/HelpshiftX\/Sources\/Utils\/HSColorConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1030,
+      "length": 8,
+      "value": "0xFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Library\/Developer\/Xcode\/DerivedData\/HelpshiftX-guepzufannzwpidxdiahzvjlqvwi\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HelpshiftX\/IntermediateBuildFilesPath\/HelpshiftX.build\/Release-iphoneos\/HelpshiftX.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 732,
+      "length": 12,
+      "value": "\"close_icon\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Library\/Developer\/Xcode\/DerivedData\/HelpshiftX-guepzufannzwpidxdiahzvjlqvwi\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HelpshiftX\/IntermediateBuildFilesPath\/HelpshiftX.build\/Release-iphoneos\/HelpshiftX.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 887,
+      "length": 19,
+      "value": "\"conversation_icon\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Library\/Developer\/Xcode\/DerivedData\/HelpshiftX-guepzufannzwpidxdiahzvjlqvwi\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HelpshiftX\/IntermediateBuildFilesPath\/HelpshiftX.build\/Release-iphoneos\/HelpshiftX.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1035,
+      "length": 12,
+      "value": "\"error_icon\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Library\/Developer\/Xcode\/DerivedData\/HelpshiftX-guepzufannzwpidxdiahzvjlqvwi\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HelpshiftX\/IntermediateBuildFilesPath\/HelpshiftX.build\/Release-iphoneos\/HelpshiftX.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1178,
+      "length": 13,
+      "value": "\"no_internet\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Library\/Developer\/Xcode\/DerivedData\/HelpshiftX-guepzufannzwpidxdiahzvjlqvwi\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HelpshiftX\/IntermediateBuildFilesPath\/HelpshiftX.build\/Release-iphoneos\/HelpshiftX.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1322,
+      "length": 13,
+      "value": "\"reload_icon\""
+    }
+  ]
+}

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		/pht7IsxlJ4FkoJIIuAap3vfcHs=
+		VCXxZIjG08nmt32aRpqj1RTUr6A=
 		</data>
 		<key>DeviceModels.plist</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/Helpshift.h</key>
 		<data>
-		1RvBzNmrrUsteBVWVotUpVEl2P4=
+		sfHWyDeKWUIP8BjO6PJTgC5yU1Q=
 		</data>
 		<key>Headers/HelpshiftDelegate.h</key>
 		<data>
@@ -28,9 +28,13 @@
 		<data>
 		kFhKia1LIz7Md5qZSBbrAUC0wPk=
 		</data>
+		<key>Headers/HelpshiftX-Swift.h</key>
+		<data>
+		6XYeMw86uh0opV7ZcYxNA3hn2vE=
+		</data>
 		<key>Headers/HelpshiftX.h</key>
 		<data>
-		xXSYtv3Tep3Vd+jMuxN5wyZWfGs=
+		NAvQ3KRWbYSyvc2FbLSCNxjbbJU=
 		</data>
 		<key>HelpshiftChatViewController.nib</key>
 		<data>
@@ -42,15 +46,55 @@
 		</data>
 		<key>HsLoadingView.nib</key>
 		<data>
-		H/wwZkd+hhhQhyPWEdmjQhqYviA=
+		NVQKfilZtZucUNn1vcWA6waHJx0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XyeHjoz6HbvvX/Azf3OckX/LpHA=
+		9vnwGniWEQnRtMsT708HovV4boM=
+		</data>
+		<key>Modules/HelpshiftX.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		vWrZZICR3/6epvMlW7G43i62Ig4=
+		</data>
+		<key>Modules/HelpshiftX.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		+pQJy5unRcNxP2cEECU/66nGLeg=
+		</data>
+		<key>Modules/HelpshiftX.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		sa0EDoQac1qEpkhpeiD1Rqr2H+U=
+		</data>
+		<key>Modules/HelpshiftX.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		04nw4etkwl7Vjd4jWEH1qRNpjvo=
+		</data>
+		<key>Modules/HelpshiftX.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		xFqSLPiFIJKVYLTt+60u1/7uNbg=
+		</data>
+		<key>Modules/HelpshiftX.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		vWrZZICR3/6epvMlW7G43i62Ig4=
+		</data>
+		<key>Modules/HelpshiftX.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		gfYE5o6g5BnZ8yxf0kFL2x0SY3k=
+		</data>
+		<key>Modules/HelpshiftX.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		JeBI4ck8Vpu06ARKrpUU+ykgXBo=
+		</data>
+		<key>Modules/HelpshiftX.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		Q/zY4xBly/hnA0h8nd9aGYhZy4M=
+		</data>
+		<key>Modules/HelpshiftX.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		D6jIwuPy1BRGQgMH81x6GapohGg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		2ad72as+Q4pW2XyWD6TwlKi5DjI=
+		Tzz9KtN7U1HxbJWJtagPdUNbPb0=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -79,7 +123,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n78WYfgzvBUOPC7C45TnPvDjNg7a3Tn7L8iDVdFlOqw=
+			XlYp+DNvmjAe2qnowjLqLttxg/ZgrqMTDayfTD80eo8=
 			</data>
 		</dict>
 		<key>DeviceModels.plist</key>
@@ -93,7 +137,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yT4Pc/nGobx/rIt6KWPJI1KWmMENE2Sjdui8ksFDMAM=
+			L2Kp1/juIte7PcbtkkgPE+PlzwU/a1IjEN1ruL/u0z4=
 			</data>
 		</dict>
 		<key>Headers/HelpshiftDelegate.h</key>
@@ -117,11 +161,18 @@
 			bY127JsMqGlvdCTyUHHGk1xPUq/KINKcgpWJwGg51x0=
 			</data>
 		</dict>
+		<key>Headers/HelpshiftX-Swift.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WQAunY/HoG0J23FMrIIfKXcoUSswXod+ws9yscyr6kc=
+			</data>
+		</dict>
 		<key>Headers/HelpshiftX.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fOD+FFeMjl11AVKa9Ps8w3wg0htmBMlBvClFZr5JdqY=
+			Q1Q7jVlllg5c4RYMOdw6hWe/SHU1NknYsO/tGbDbCuY=
 			</data>
 		</dict>
 		<key>HelpshiftChatViewController.nib</key>
@@ -142,14 +193,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/TzJF2nMLTmE9kO3cb9Hn103KScpDDJ8YsdQ93kUkao=
+			zbYVncR5X861TWMT/zk4zcjm0NYTWp/Shp4Tw/si3Us=
+			</data>
+		</dict>
+		<key>Modules/HelpshiftX.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jg5BIzsnpTYKl09trVNaygueq2UM6xuOEGL6OaEgaU8=
+			</data>
+		</dict>
+		<key>Modules/HelpshiftX.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v2Dgo28PQLyyTWxWeAJJyEpM6zSKtNpbpFazJd/sBnk=
+			</data>
+		</dict>
+		<key>Modules/HelpshiftX.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4TaBNuaQ2h46lS/iQk8wIPaUsNp4Ta9esrCSjfAvWIM=
+			</data>
+		</dict>
+		<key>Modules/HelpshiftX.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mYsWwh0+Uz0hvOC9Q63jgNS04h+8OIySIHTvEn1PXIU=
+			</data>
+		</dict>
+		<key>Modules/HelpshiftX.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TnvqBwOeA0IgBNgwLj8sDxWduHD3pWMALtgM7FHZGE4=
+			</data>
+		</dict>
+		<key>Modules/HelpshiftX.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jg5BIzsnpTYKl09trVNaygueq2UM6xuOEGL6OaEgaU8=
+			</data>
+		</dict>
+		<key>Modules/HelpshiftX.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			seApLzvag9Y/Mg2dvPTuY9lC8Im3NcyGTMIhztA5Mr8=
+			</data>
+		</dict>
+		<key>Modules/HelpshiftX.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kEE4angH/lugcRBcGS44kR+P7jv7MzFHkV1z1tE1A+8=
+			</data>
+		</dict>
+		<key>Modules/HelpshiftX.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VH6496/2rPmtSltsgjMW/eTzqALuIvLjGF4uyJ9lMTY=
+			</data>
+		</dict>
+		<key>Modules/HelpshiftX.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LQRgWcf4BIrRFvgzCqPyG5y/R+Lji5sc4K7lgYgNa8o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HySsBsU1QmzeYqLVPl9aQOqL2KUjjeBKNlq/gy7CDDc=
+			eLI/dkvIk/B0O0c8WhvZADU6KTPY5OTp2BbM0JYv5KM=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>

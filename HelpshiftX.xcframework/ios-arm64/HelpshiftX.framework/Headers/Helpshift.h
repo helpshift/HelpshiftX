@@ -7,10 +7,16 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <UserNotifications/UserNotifications.h>
+#ifdef STATIC_FW
 #import "HelpshiftDelegate.h"
 #import "HelpshiftProactiveAPIConfigCollectorDelegate.h"
 #import "HelpshiftUserLoginFailureReason.h"
-#import <UserNotifications/UserNotifications.h>
+#else
+#import <HelpshiftX/HelpshiftDelegate.h>
+#import <HelpshiftX/HelpshiftProactiveAPIConfigCollectorDelegate.h>
+#import <HelpshiftX/HelpshiftUserLoginFailureReason.h>
+#endif
 
 NS_ASSUME_NONNULL_BEGIN
 
